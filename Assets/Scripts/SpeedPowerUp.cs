@@ -2,17 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpeedPowerUp : MonoBehaviour
+public class SpeedPowerUp : PowerUp
 {
-    // Start is called before the first frame update
-    void Start()
+    public float speedMultiplier = 2.0f;
+    public float duration = 5.0f;
+    public override void ApplyPowerUp(Player player)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        player.PowerUp(speedMultiplier, duration);
     }
 }
