@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HealthPowerUp : PowerUp
 {
-    public int healthIncrease = 50;
+    public int healthIncrease = 20;
 
     public override void ApplyPowerUp(Player player)
     {

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5466178814183247219}
   - component: {fileID: 9211669265927763561}
   - component: {fileID: 5038013262471348357}
+  - component: {fileID: 7181539802896483247}
   m_Layer: 0
   m_Name: StrengthPowerUp
   m_TagString: Untagged
@@ -153,5 +154,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 390ee9ba57e435149a02850fbe8c5b09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7181539802896483247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6004003595585334368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 756f972bada937949989a1412caa8668, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

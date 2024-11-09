@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1452553313351888491}
   - component: {fileID: 1956956949388425126}
   - component: {fileID: 8211054830143928894}
+  - component: {fileID: -8104839533721633033}
   m_Layer: 0
   m_Name: HealthPowerUp
   m_TagString: Untagged
@@ -156,3 +157,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthIncrease: 50
+--- !u!114 &-8104839533721633033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2437112461145734025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 756f972bada937949989a1412caa8668, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

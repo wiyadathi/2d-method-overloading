@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    int health = 100;
+    int health = 10;
     public int Health => health; 
 
     float strength = 10.0f;
